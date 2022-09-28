@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,add,sub,mul;
+    float div,mod;
+    printf("Enter 2 numbers: ");
+    scanf("%d%d", &a,&b);
+    //ADDITION
+    add=a+b;
+    printf("Sum of numbers=%d\n", add);
+    //SUBSTRACTION
+    sub=a-b;
+    printf("Substraction of numbers=%d\n", sub);
+    //MULTIPLICATION
+    mul=a*b;
+    printf("PRODUCT of numbers=%d\n", mul);
+    //DIVISION
+    div=a/b;
+    printf("DIVISION of numbers=%f\n", div);
+    //MODULUS
+    mod=a%b;
+    printf("MOD of numbers=%f\n", mod);
+
+    return 0;
+}
